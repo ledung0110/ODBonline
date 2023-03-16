@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 4, 2023, 5:29:32 PM
+    Author     : win
+*/
+
+td {
+  text-align: center !important;
+  vertical-align: middle !important;
+  font-size: 10px;
+}
+.centered-content {
+  text-align: center;
+  vertical-align: middle; 
+}
+.button-container {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.container{
+    margin-top: 50px;
+    max-width: 100%;
+    position:relative;
+}
+span.pagelnfo{
+    max-width: 100%;
+}
+.pageJump{
+    max-width: none;
+    margin: 0;
+}
+
+/*.table-responsive{
+    max-height:1100px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}*/
+.tr{
+    overflow-y: scroll;
+}
+
+
+
+
+

@@ -1,0 +1,6 @@
+/dist/
+/nbproject/private/
+/build/
+*.log
+
+

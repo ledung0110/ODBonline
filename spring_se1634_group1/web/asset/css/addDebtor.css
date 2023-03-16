@@ -1,0 +1,45 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 18, 2023, 4:07:58 PM
+    Author     : ASUS
+*/
+
+.ttnn{
+    background-color: rgb(92, 156, 156);
+}
+.ttnnbody{
+    /* background-color:rgb(68, 221, 213);     */
+    background-image: url(https://img.freepik.com/free-vector/flat-design-geometric-shapes-background_23-2148366514.jpg?w=2000);
+        background-size: cover;
+       
+}
+.ttnnfooter{
+
+    /* background-color: rgb(92, 156, 156); */
+    background-image: url(https://img.freepik.com/free-vector/flat-design-geometric-shapes-background_23-2148366514.jpg?w=2000);
+    background-size: cover;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+#image-preview img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+  }
+ .debit-manage card{
+     
+       margin-top: 20px;
+  }
+
+  
+  .next{
+      text-align: end;
+  }
+  
+ 

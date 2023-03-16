@@ -1,0 +1,74 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 24, 2023, 6:00:14 PM
+    Author     : win
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+     background-color: rgb(254,240,253);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+   
+}
+
+
+.container-fluid{
+    /*background-color: rgb(250,255,233);*/
+
+    align-items: center;
+}
+.col-sm-4.col-form-label{
+    font-size: 12px;
+}
+.card-header h4{
+    font-weight: bold;
+}
+.card-header{
+    border-radius: 30px;
+}
+
+
+  .modal-dialog {
+  
+  }
+.left-card{
+    max-width:70%;
+    max-height: 100%;
+    border-radius: 10px;
+    margin:100px 50px 100px 50px;
+    box-shadow: 1px 1px 1px 1px #888888;
+    background-color: rgb(206,173,190);
+    opacity: 0.9;
+    margin-left: 70px;
+}
+
+.right-card{
+    max-width:70%;
+    max-height: 100%;
+    border-radius: 10px;
+    margin:100px 50px 100px 50px;
+    box-shadow: 1px 1px 1px 1px #888888;
+    margin-left: 100px;
+    background-color: rgb(206,173,190);
+
+}
+.card.border-light.mb-3{
+    background-color: rgb (255, 255, 255);
+}
+.form-control{
+    background-color: #eee;
+
+    border: none;
+    max-width: 100%;
+    text-align: end;
+}
+button.btn.btn-light{
+    color:#f95d77;
+    /*background-color: #f95d77;*/
+    border-radius: 20px;
+    border: 1px solid #ff2b5d;
+}
+

@@ -1,0 +1,182 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 3, 2023, 12:26:17 PM
+    Author     : ASUS
+*/
+
+/* Change */
+.admin-dropdown {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+.ad{
+    cursor: pointer;
+    
+}
+.user-infor{
+    border: 1px solid rgb(174, 174, 174);
+    border-radius: 2%;
+    box-shadow: inset;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 500px;
+    width: auto;
+    max-width: 80%;
+    background-color: rgb(238, 238, 238);
+}
+h4{
+    background-color: rgb(234, 234, 234);
+    max-width: 100%;
+    
+    height: 50px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 2%;
+}
+.close-x{
+    background-color: rgb(174, 174, 174);
+}
+.submit-change {
+    
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:ital,wght@0,600;1,600&display=swap');*/
+
+ 
+
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans ', sans-serif;
+     
+    
+}
+
+body {
+    background: #d3d8eb;
+    background-image: url('../../img/home4.jpg');
+     position: fixed;
+    max-width: 100%;
+   
+}
+
+
+.wraper .sidebar {
+    background: rgb(206,173,190);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.wraper .sidebar .profile {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wraper .sidebar .profile img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.wraper .sidebar .profile h3 {
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.wraper .sidebar .profile p {
+    color: rgb(206, 204, 253);
+    font-size: 14px;
+}
+
+.wraper .sidebar ul li a {
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+.wraper .sidebar ul li a .icon {
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+}
+
+/* link hover */
+.wraper .sidebar ul li a:hover,
+.wraper .sidebar ul li a:active {
+    color: #0c7db1;
+    background: white;
+    border-right: 2px solid rgb(5, 68, 184);
+
+
+
+}
+
+.wraper .sidebar ul li a:hover .icon,
+.wraper .sidebar ul li a:active .icon {
+    color: #0c7db1;
+}
+
+.wraper .sidebar ul li a:hover ::before,
+.wraper .sidebar ul li a:active::before {
+    display: block;
+}
+
+.wraper .section {
+    width: calc(100% - 225px);
+    margin-left: 225px;
+    transition: all 0.5s ease;
+}
+
+.wraper .section .top_navbar {
+    position: sticky;
+    background-color:rgb(206,173,190);
+    height: 50px;
+    display: flex;
+    align-items: center;
+  
+    padding: 0 30px;
+}
+
+.wraper .section .top_navbar .hamburger a {
+    font-size: 28px;
+    color: #f4fbff;
+
+}
+
+.wraper .section .top_navbar .hamburger a:hover {
+    color: #a3ecff;
+}
+
+body.active .wraper .sidebar {
+    left: -225px;
+}
+
+body.active .wraper .section {
+    margin-left: 0;
+    width: 100%;
+}
+
+

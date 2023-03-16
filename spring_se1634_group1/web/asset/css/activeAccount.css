@@ -1,0 +1,29 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 3, 2023, 12:41:01 PM
+    Author     : ASUS
+*/
+
+
+.background-image{
+    
+     background-image: linear-gradient(to top, #ff9a9e 0%, #b97ca6 99%, #fecfef 100%);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+}
+.card{
+      background-image: linear-gradient(to top, #ff9a9e 0%, #b97ca6 99%, #fecfef 100%);
+    border: 200px;
+    
+}
+input{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
